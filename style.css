@@ -1,0 +1,101 @@
+   /* Tổng thể */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Khung chính */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Phần đầu */
+header {
+  text-align: center;
+  background-color: #e6f0ff;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 30px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #007BFF;
+  object-fit: cover;
+}
+
+h1 {
+  margin: 10px 0 5px;
+  color: #007BFF;
+}
+
+header p {
+  margin: 0;
+  color: #444;
+  font-size: 16px;
+}
+
+/* Tiêu đề mục */
+h2 {
+  color: #ffea00;
+  border-bottom: 2px solid #ffae00;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+/* Các section */
+section {
+  margin-bottom: 30px;
+}
+
+/* Danh sách */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+a {
+  color: #ff4d00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  .avatar {
+    width: 90px;
+    height: 90px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+}
+
+    </style>
